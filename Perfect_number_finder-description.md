@@ -2,7 +2,7 @@
 ##### These Python projects calculate perfect numbers using these characteristics of perfect numbers:
 ##### 1.Perfect numbers are all triangular numbers. 6==1+2+3; 28==1+2+3+4+5+6+7; 496==1+2+3+4+……30+31; 8128==1+2+3……+126+127.
 ##### 2.Perfect numbers all end in 6 or 28.
-##### 3.Perfect numbers % 3==1, % 9==1, has"1"in % 27 Except 6.
+##### 3.Perfect numbers % 3==1, % 9==1, has 1 in % 27(except 6).
 ## 2.0 Version
 ##### 2.0 version calculates perfect numbers based on the characteristics above. Times: (seconds)
 ##### 6: <0.1;
