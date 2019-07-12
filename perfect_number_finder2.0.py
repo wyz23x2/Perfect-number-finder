@@ -1,9 +1,7 @@
 # import models
 from itertools import cycle
-import time
 # input range
 maximum = input('Please enter the maximum: ')
-# find factors
 try:
     # find perfect numbers
     def perfect(num):
@@ -26,7 +24,7 @@ try:
             try:
                 perfectTF = perfect(number)
                 if perfectTF != False:
-                    print(str(perfectTF)+' is a perfect number! Time: '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+                    print(str(perfectTF)+' is a perfect number!')
                 number += count
                 count += 1
             except KeyboardInterrupt:
@@ -35,7 +33,7 @@ try:
     else:
         while number< int(maximum)+1:
             if perfect(number) != False:
-                print(str(perfect(number))+' is a perfect number! Time: '+time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+                print(str(perfect(number))+' is a perfect number!')
             number += count
             count += 1
         print('Ended. Thanks for using!')
