@@ -31,7 +31,7 @@ try:
                 print('Exited. Thanks for using!')
                 break
     else:
-        while number< int(maximum)+1:
+        while number < int(maximum)+1:
             if perfect(number) != False:
                 print(str(perfect(number))+' is a perfect number!')
             number += count
