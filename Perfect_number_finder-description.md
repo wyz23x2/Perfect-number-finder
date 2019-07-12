@@ -12,4 +12,4 @@
 ##### 33550336: 540 ~ 590.
 ##### Unfortunately, 2.0 has not calculated to 8589869056 in 44 hours.
 ## 2.0t Version
-##### This is a branch from 2.0, usually used for testing. It shows the time calculated after the perfect number.
+##### This is a branch from 2.0, usually used for testing. It shows the time that the perfect number was calculated after it.
